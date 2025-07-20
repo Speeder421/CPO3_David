@@ -29,7 +29,7 @@ function setup() {
   box.diameter=40;
   box.w=50;
   box.h=50;
-  
+  box.color=
 }
 
 function draw() {
