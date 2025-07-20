@@ -43,5 +43,8 @@ function draw() {
   if(box.x<0+box.w/2||box.x>width-box.h/2){
     box.vel.x*=-1.05
     }
+  if(box.x<0+box.w/2||box.x>width-box.h/2){
+    box.vel.x*=-1.05
+    }
 }
 
