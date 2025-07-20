@@ -29,7 +29,7 @@ function setup() {
   box.w=50;
   box.h=50;
   box.color="green";
-  ball.collider="static";
+  box.collider="static";
 }
 
 function draw() {
