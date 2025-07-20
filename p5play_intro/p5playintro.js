@@ -6,7 +6,8 @@ function setup() {
   // Basic shape testing
   // write your codes here
   // End Basic shape testing
-Fill()
+Fill("skyblue")
+
   // Create a bouncing ball sprite
   // write your codes here
 ball=new Sprite();
