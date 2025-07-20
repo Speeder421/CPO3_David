@@ -16,7 +16,7 @@ ball.diameter=40;
 ball.color="red"
 ball.vel.x=3;
 ball.vel.y=3;
-
+ball.bounc
 }
 
 function draw() {
