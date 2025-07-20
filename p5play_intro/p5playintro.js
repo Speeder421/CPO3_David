@@ -42,6 +42,6 @@ function draw() {
     ball.vel.y*=-1.05
     }
   box.x=mouse.x
-
+  box.y=mouse.y
 }
 
