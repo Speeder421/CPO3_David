@@ -35,7 +35,8 @@ function setup() {
 function draw() {
   // write your codes here
   background(250);
-  FileList(0)
+  fill(0);
+  text
   if(ball.x<0+ball.diameter/2||ball.x>width-ball.diameter/2){
     ball.vel.x*=-1
   }
