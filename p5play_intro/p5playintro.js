@@ -37,7 +37,7 @@ function draw() {
   background(250);
   fill(0);
   textSize(16);
-  text("Ball:("+Int16Array(ball.x)+","+Int16Array(ball.y))
+  text("Ball:("+int(ball.x)+","+Iint(ball.y))
   if(ball.x<0+ball.diameter/2||ball.x>width-ball.diameter/2){
     ball.vel.x*=-1
   }
