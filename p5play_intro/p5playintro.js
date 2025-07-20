@@ -41,7 +41,7 @@ function draw() {
     ball.vel.y*=-1.05
     }
   if(box.x<0+box.diameter/2||box.x>width-box.diameter/2){
-    ball.vel.x*=-1.05
+    box.vel.x*=-1.05
     }
 }
 
