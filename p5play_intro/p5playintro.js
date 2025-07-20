@@ -11,7 +11,8 @@ function setup() {
   // write your codes here
 ball=new Sprite();
 ball.x=100;
-ball.y=200
+ball.y=200;
+ball.diameter
 }
 
 function draw() {
