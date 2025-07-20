@@ -33,6 +33,7 @@ function setup() {
 
 function draw() {
   // write your codes here
-  background(240)
+  background(250)
+  
 }
 
