@@ -9,7 +9,7 @@ function setup() {
 Fill("skyblue")
 stroke("pink")
 strokeWeight(10)
-circle
+()
   // Create a bouncing ball sprite
   // write your codes here
 ball=new Sprite();
