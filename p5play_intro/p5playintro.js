@@ -9,7 +9,7 @@ function setup() {
 
   // Create a bouncing ball sprite
   // write your codes here
-
+ball=sprte
 }
 
 function draw() {
