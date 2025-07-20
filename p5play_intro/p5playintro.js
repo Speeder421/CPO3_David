@@ -41,10 +41,10 @@ function draw() {
   text("Mouse:("+int(mouse.x)+","+int(mouse.y)+")",10,40);
 
   if(ball.x<0+ball.diameter/2||ball.x>width-ball.diameter/2){
-    ball.vel.x*=-2
+    ball.vel.x*=-1
   }
   if(ball.y<0+ball.diameter/2||ball.y>height-ball.diameter/2){
-    ball.vel.y*=-2
+    ball.vel.y*=-1
   }
   box.x=mouse.x
   box.y=mouse.y
