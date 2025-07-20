@@ -27,6 +27,8 @@ function setup() {
   box.x=100;
   box.y=100;
   box.diameter=40;
+  box.w=50;
+  box.h=50;
   
 }
 
