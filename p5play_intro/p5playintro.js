@@ -41,10 +41,10 @@ function draw() {
     ball.vel.y*=-1.05
     }
   background(250)
-  if(box.x<0+box.w/2||box.x>width-box.h/2){
+  if(box.x<0+box.w/2||box.y>width-box.h/2){
     box.vel.x*=-1.05
     }
-  if(box.x<0+box.w/2||box.x>width-box.h/2){
+  if(box.x<0+box.w/2||box.y>width-box.h/2){
     box.vel.x*=-1.05
     }
 }
