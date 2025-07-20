@@ -36,10 +36,10 @@ function draw() {
   // write your codes here
   background(250);
   if(ball.x<0+ball.diameter/2||ball.x>width-ball.diameter/2){
-    ball.vel.x*=-1.05
+    ball.vel.x*=-1
   }
   if(ball.y<0+ball.diameter/2||ball.y>height-ball.diameter/2){
-    ball.vel.y*=-1.05
+    ball.vel.y*=-1
     }
   box.x=mouse.x
   box.y=mouse.y
