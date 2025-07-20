@@ -6,7 +6,7 @@ function setup() {
   // Basic shape testing
   // write your codes here
   // End Basic shape testing
-  Fill("skyblue")
+  fill("skyblue")
   stroke("pink")
   strokeWeight(10)
   circle(30,30,50)
