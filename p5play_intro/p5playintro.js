@@ -23,7 +23,10 @@ function setup() {
   ball.bounciness=1;
   ball.collider="dynamic";
 
-  box= new Sprite()
+  box= new Sprite();
+  box.x=100;
+  box.y=100;
+  
 }
 
 function draw() {
