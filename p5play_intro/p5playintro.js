@@ -37,7 +37,7 @@ function draw() {
   if(ball.x+ball.diameter/2<0||ball.x+ball.diameter/2>width){
     ball.vel.x*=-1
   }
-  if(ball.y+ball.diameter/2<0||ball.y+ball.diameter/2>height){
+  if(ball.y-ball.diameter/2<0||ball.y-ball.diameter/2>height){
     ball.vel.y*=-1
     }
 }
