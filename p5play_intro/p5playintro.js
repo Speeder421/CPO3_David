@@ -10,7 +10,7 @@ Fill("skyblue")
 stroke("pink")
 strokeWeight(10)
 circle(30,30,50)
-()
+rect(50,50,100,200)
   // Create a bouncing ball sprite
   // write your codes here
 ball=new Sprite();
