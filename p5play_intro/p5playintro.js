@@ -34,10 +34,10 @@ function setup() {
 function draw() {
   // write your codes here
   background(250);
-  if(ball.x+ball.diameter/2<0||ball.x>width){
+  if(ball.x+ball.diameter/2<0||ball.x+ball.diameter/2>width){
     ball.vel.x*=-1
   }
-  if(ball.y+ball.diameter/2<0||ball.y>height){
+  if(ball.y+ball.diameter/2<0||ball.y+ball.diameter/2>height){
     ball.vel.y*=-1
     }
 }
