@@ -1,7 +1,7 @@
 let bird,floor;
 let flapMidImg,bg,base;
 function preload(){
-  flapMidImg=loadImage('flappybird/assets/-midflap.png')
+  flapMidImg=loadImage('/workspaces/CPO3_David/flappybird/assets/yellowbird-midflap.png')
 
 
 }
