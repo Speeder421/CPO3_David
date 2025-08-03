@@ -5,3 +5,7 @@ function preload(){
   bg=loadImage('../flappybird/assets/background-day.png');
   base=loadImage('../assets/base.png')
 }
+
+function setup(){
+  
+}
