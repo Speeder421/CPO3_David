@@ -16,7 +16,8 @@ function setup(){
   bird.img=flapMidImg;
   bird.collider="dynamic";
   bird.mass=2;
-  bird
+  bird.drag=0.02;
+  \
 }
 
 function draw(){
