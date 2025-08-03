@@ -32,7 +32,7 @@ let groceries=["bread",'apple','milk'];
 
 groceries.push('orange');
 groceries.push('butter');
-groceries.splice(groceries.indexOf())
+groceries.splice(groceries.indexOf(1),"kaya")
 for(let item of groceries){
   console.log(item);
 }
