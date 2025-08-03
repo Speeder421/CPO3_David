@@ -30,3 +30,4 @@
 
 let groceries=["bread",'apple','milk']
 
+groceries
