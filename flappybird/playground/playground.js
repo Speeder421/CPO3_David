@@ -1,4 +1,5 @@
-let bird,floor
+let bird,floor;
+letflap
 function preload(){
 
 }
