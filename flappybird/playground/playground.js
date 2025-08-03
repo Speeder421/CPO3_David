@@ -1,5 +1,5 @@
 let bird,floor;
-letflap
+letflapMidImg
 function preload(){
 
 }
