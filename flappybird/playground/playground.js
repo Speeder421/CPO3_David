@@ -20,7 +20,7 @@ function setup(){
   bird.bounciness=0.5;
   world.gravity.y=10;
 
-  floor=
+  floor=New sprte
 }
 
 function draw(){
