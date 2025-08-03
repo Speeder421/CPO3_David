@@ -30,5 +30,5 @@
 
 let groceries=["bread",'apple','milk'];
 
-groceries.push('orange')
-groceries.push('orange','butter')
+groceries.push('orange');
+groceries.push('butter');
