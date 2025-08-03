@@ -1,17 +1,17 @@
-function setup() {
-  createCanvas(600,400);
-  background(220);
-}
-function draw(){
-  fill(255,0,0);
-  elipse(300,100,100,100);
-  fill(247,255,5);
-  elipse(300,200,100,100);
-  fill(255,0,0);
-  elipse(300,300,100,100);
-}
+// function setup() {
+//   createCanvas(600,400);
+//   background(220);
+// }
+// function draw(){
+//   fill(255,0,0);
+//   elipse(300,100,100,100);
+//   fill(247,255,5);
+//   elipse(300,200,100,100);
+//   fill(255,0,0);
+//   elipse(300,300,100,100);
+// }
 
-  // write your codes here
+//   // write your codes here
 
   // --- Exercise: Area of Triangle ---
   // write your codes here
