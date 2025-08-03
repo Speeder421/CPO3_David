@@ -1,5 +1,6 @@
 let bird,floor;
-letflapMidImg,bg,BaseAudioContext;
+letflapMidImg,bg,base;
 function preload(){
+  
 
 }
