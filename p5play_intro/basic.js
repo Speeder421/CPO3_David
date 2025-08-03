@@ -28,6 +28,6 @@
   // --- Exercise: Array operations (groceries) ---
   // write your codes here
 
-let groceries=["bread",'apple','milk']
+let groceries=["bread",'apple','milk'];
 
 groceries.push('orange','butter')
