@@ -34,7 +34,7 @@ groceries.push('orange');
 groceries.push('butter');
 groceries.shift();
 groceries.splice(1,0,"kaya");
-groceries
+console.log(groceries[])
 for(let item of groceries){
   console.log(item);
 }
