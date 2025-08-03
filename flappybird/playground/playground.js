@@ -1,6 +1,7 @@
 let bird,floor;
-letflapMidImg,bg,base;
+let flapMidImg,bg,base;
 function preload(){
-  
+  flap
+
 
 }
