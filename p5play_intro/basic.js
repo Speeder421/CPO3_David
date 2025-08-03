@@ -33,5 +33,5 @@ let groceries=["bread",'apple','milk'];
 groceries.push('orange');
 groceries.push('butter');
 for(let item of groceries){
-  
+  console.log(item)
 }
