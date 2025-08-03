@@ -30,4 +30,4 @@
 
 let groceries=["bread",'apple','milk']
 
-groceries
+groceries.push('orange')
