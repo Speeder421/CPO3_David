@@ -52,7 +52,7 @@ function draw(){
   }
 
   if(bird.vel.y>0){
-    bird.img=flapMidImg;
+    bird.img=flapDownImg;
   }
 
 }
