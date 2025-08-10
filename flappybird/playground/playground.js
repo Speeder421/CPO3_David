@@ -51,7 +51,7 @@ function draw(){
     bird.img=flapUpImg;
   }
 
-  if(bird.vel.y<-1){
+  if(bird.vel.y>0){
     bird.img=flapUpImg;
   }
 
