@@ -49,8 +49,8 @@ function draw(){
 //   }
   if(bird.vel.y<-1){
     bird.img=flapUpImg;
-    for(let1=0;i<30;i++){
-        bird.rotation=-45;
+    for(let1=0;i<45;i++){
+        bird.rotation=-1;
     }
     
   }
