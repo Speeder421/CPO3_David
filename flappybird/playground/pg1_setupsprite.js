@@ -36,6 +36,6 @@ function draw(){
     bird.sleeping=false;
   }
   if(mouse.presses()){
-    new Sprite()
+    new Sprite(mouse.x,200)
   }
 }
