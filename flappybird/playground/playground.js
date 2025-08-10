@@ -55,7 +55,7 @@ function draw(){
     bird.img=flapDownImg;
   }
   else{
-    bird.img=flapMidImg
+    bird.img=flapMidImg;
   }
 
 
