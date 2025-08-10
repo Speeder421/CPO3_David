@@ -55,7 +55,7 @@ function draw(){
   }
   else if(bird.vel.y>1){
     bird.img=flapDownImg;
-    for(let i=0;i>45;i++){
+    for(let i=0;i<45;i++){
         bird.rotation += 5;
     }
     
