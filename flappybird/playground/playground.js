@@ -31,5 +31,21 @@ function setup(){
 
 function draw(){
   image(bg,0,0,width,height);
-  
+
+  fill('red');
+  textSize(14);
+  text("vel.y:"+bird.vel.y.toFixed(2),10,20);
+  text("isMoving:"+bird.isMoving,10,40);
+  text("sleeping:"+bird.sleeping,10,60);
+
+
+
+  if(kb.presses('space')){
+    bird.vel.y=-5;
+    bird.sleeping=false;
+  }
+  if(mouse.presses()){
+    new Sprite(mouse.x,200,30,30,'dynamic');
+  }
+
 }
