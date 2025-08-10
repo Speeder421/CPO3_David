@@ -32,7 +32,8 @@ function setup(){
 function draw(){
   image(bg,0,0,width,height);
 
-  fill('blue')
+  fill('red');
+
 
   if(kb.presses('space')){
     bird.vel.y=-15;
