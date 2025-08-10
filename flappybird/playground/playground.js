@@ -38,8 +38,6 @@ function draw(){
   text("isMoving:"+bird.isMoving,10,40);
   text("sleeping:"+bird.sleeping,10,60);
 
-
-
   if(kb.presses('space')){
     bird.vel.y=-5;
     bird.sleeping=false;
