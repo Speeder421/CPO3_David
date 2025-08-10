@@ -34,7 +34,7 @@ function draw(){
 
   fill('red');
   textSize(14);
-  text("vel.y:"+bird.vel.y.toFi)
+  text("vel.y:"+bird.vel.y.toFixed(2))
 
 
   if(kb.presses('space')){
