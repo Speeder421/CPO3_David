@@ -36,12 +36,12 @@ function draw(){
   textSize(14);
   text("vel.y:"+bird.vel.y.toFixed(2),10,20);
   text("isMoving:"+bird.isMoving,10,40);
-  text("sleeping:"+bird.sleeping,10,20);
+  text("sleeping:"+bird.sleeping,10,60);
 
 
 
   if(kb.presses('space')){
-    bird.vel.y=-15;
+    bird.vel.y=-5;
     bird.sleeping=false;
   }
   if(mouse.presses()){
