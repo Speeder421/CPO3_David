@@ -33,7 +33,7 @@ function draw(){
   image(bg,0,0,width,height);
 
   fill('red');
-  
+  textSize()
 
 
   if(kb.presses('space')){
