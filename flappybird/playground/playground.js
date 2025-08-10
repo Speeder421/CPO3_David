@@ -5,7 +5,7 @@ function preload(){
   bg=loadImage('assets/background-day.png');
   base=loadImage('assets/base.png');
   flapUpImg=loadImage('')
-  flapUpImg=loadImage('')
+  flapDownImg=loadImage('')
 }
 
 function setup(){
