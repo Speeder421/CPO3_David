@@ -75,6 +75,6 @@ function draw(){
 
 }
 function spawnPipePair(){
-  bottomPipe=new Sprite(100,height)
+  bottomPipe=new Sprite(100,height/2,)
 
 }
