@@ -78,6 +78,9 @@ function draw(){
   else if(frameCount%80==0){
     spawnPipePair();
   }
+  if (bird.collides(pipeGroup)||bird.collides(floor)){
+    
+  }
 
 
 }
