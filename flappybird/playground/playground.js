@@ -1,6 +1,7 @@
 let bird,floor;
 let flapMidImg,bg,base;
 let pipeImg;
+let pipegr
 function preload(){
   flapMidImg=loadImage('assets/yellowbird-midflap.png');
   bg=loadImage('assets/background-day.png');
