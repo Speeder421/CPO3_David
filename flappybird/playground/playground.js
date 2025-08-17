@@ -13,7 +13,7 @@ function setup(){
   bird= new Sprite();
   bird.x=width/2;
   bird.y=200;
-  bird.width=34;
+  bird.width=32;
   bird.height=24;
   bird.img=flapMidImg;
   bird.collider="dynamic";
