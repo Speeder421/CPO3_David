@@ -1,11 +1,16 @@
 let bird,floor;
 let flapMidImg,bg,base;
+let flapDownImg,flapUpImg;
+let pipeImg;
+let pipeGroup;
+let bottomPipe,topPipe;
 function preload(){
   flapMidImg=loadImage('assets/yellowbird-midflap.png');
   bg=loadImage('assets/background-day.png');
   base=loadImage('assets/base.png');
   flapUpImg=loadImage('assets/yellowbird-upflap.png')
   flapDownImg=loadImage('assets/yellowbird-downflap.png')
+  pipeImg=loadImage('assets/pipe-green.png');
 }
 
 function setup(){
@@ -13,8 +18,8 @@ function setup(){
   bird= new Sprite();
   bird.x=width/2;
   bird.y=200;
-  bird.width=30;
-  bird.height=30;
+  bird.width=34;
+  bird.height=24;
   bird.img=flapMidImg;
   bird.collider="dynamic";
   bird.mass=2;
@@ -29,6 +34,8 @@ function setup(){
   floor.height=125;
   floor.collider="static"
   floor.img=base;
+
+  pipeGroup=new Group();
 }
 
 function draw(){
@@ -61,5 +68,23 @@ function draw(){
     bird.rotation=0;
   }
 
+  if(frameCount===1){
+    spawnPipePair();
+  }
+
+
+}
+function spawnPipePair(){
+  let gap=60;
+  let midY=height/2;
+  bottomPipe=new Sprite(350,midY+gap/2+200,52,320,"static");
+  bottomPipe.img=pipeImg;
+  pipeGroup.add(bottomPipe);
+  pipeGroup.layer=0;
+
+  topPipe=new Sprite(350,midY-gap/2-200,52,320,"static")
+  topPipe.img=pipeImg;
+  pipeGroup.add(topPipe);
+  topPipe.rotation=-180;
 
 }
