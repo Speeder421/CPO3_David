@@ -69,6 +69,7 @@ function draw(){
   }
 
   bird.x=bird.x+3;
+  
 
   if(frameCount===1){
     spawnPipePair();
