@@ -75,19 +75,21 @@ function draw(){
   if(frameCount===1){
     spawnPipePair();
   }
-  elseif(frameCount%60===0)
+  else if(frameCount%60==0){
+    spawnPipePair();
+  }
 
 
 }
 function spawnPipePair(){
   let gap=60;
   let midY=height/2;
-  bottomPipe=new Sprite(350,midY+gap/2+200,52,320,"static");
+  bottomPipe=new Sprite(bird.x+350,midY+gap/2+200,52,320,"static");
   bottomPipe.img=pipeImg;
   pipeGroup.add(bottomPipe);
   pipeGroup.layer=0;
 
-  topPipe=new Sprite(350,midY-gap/2-200,52,320,"static")
+  topPipe=new Sprite(bird.x+350,midY-gap/2-200,52,320,"static")
   topPipe.img=pipeImg;
   pipeGroup.add(topPipe);
   topPipe.rotation=-180;
