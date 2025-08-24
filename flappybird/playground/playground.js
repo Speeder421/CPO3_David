@@ -46,7 +46,7 @@ function setup(){
   gameover.width=192;
   gameOver.height=42;
   gameOver.collider='static';
-  
+
 
 }
 
@@ -91,6 +91,7 @@ function draw(){
     spawnPipePair();
   }
   if (bird.collides(pipeGroup)||bird.collides(floor)){
+    gameover
     noLoop()
   }
 
