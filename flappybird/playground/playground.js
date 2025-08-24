@@ -85,10 +85,10 @@ function draw() {
     } 
     else if (bird.vel.y > 1) {
       bird.img = flapDownImg; 
-      bird.rotation = 30; // rotate down
+      bird.rotation = 30; 
     } 
     else {
-      bird.img = flapMidImg; // neutral
+      bird.img = flapMidImg;
       bird.rotation = 0;
     }
 
@@ -96,7 +96,7 @@ function draw() {
       spawnPipePair();
     }
 
-    if (frameCount % 120 === 0){
+    if (frameCount % 90 === 0){
       spawnPipePair();
     }
 
