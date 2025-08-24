@@ -43,6 +43,8 @@ function setup(){
 
   pipeGroup=new Group();
 
+  start
+
 
 
 }
