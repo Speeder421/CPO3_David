@@ -11,11 +11,12 @@ let startGame = false;
 let startScreenLabel; // declare variable for start screen
 let startScreenImg; // declare variable for image
 
-function preload() {    flapMidImg = loadImage('assets/yellowbird-midflap.png'); 
+function preload() {
+    flapMidImg = loadImage('assets/yellowbird-midflap.png'); 
     flapUpImg = loadImage('assets/yellowbird-upflap.png');
     flapDownImg = loadImage('assets/yellowbird-downflap.png')
 
-    pipe = loadImage('assets/pipe-green.png'); // preload image for pipe
+    pipe = loadImage('assets/pipe-green.png');
 
     bg = loadImage('assets/background-day.png');
     base = loadImage('assets/base.png');
