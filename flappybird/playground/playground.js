@@ -11,7 +11,7 @@ let startScreenLabel;
 let startScreenImg; 
 let score=0;
 let list=[];
-let scoreDIgits;
+let scoreDigits;
 
 function preload() {
     flapMidImg = loadImage('assets/yellowbird-midflap.png'); 
@@ -58,7 +58,7 @@ function setup() {
   startScreenLabel = new Sprite(width/2, height/2, 50, 50, 'none');
   startScreenLabel.img = startScreenImg;
 
-  sc
+  scoreDigits
 }
 
 function draw() {
