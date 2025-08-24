@@ -7,9 +7,8 @@ let pipeGroup; // declare the group for pipe
 let gameoverImg; // declare variable for image
 let gameoverLabel; // declare variable for game over sprite
 let startGame = false;
-
-let startScreenLabel; // declare variable for start screen
-let startScreenImg; // declare variable for image
+let startScreenLabel; 
+let startScreenImg; 
 
 function preload() {
     flapMidImg = loadImage('assets/yellowbird-midflap.png'); 
