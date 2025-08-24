@@ -89,7 +89,7 @@ function draw(){
     gameOver=gameOverImg;
     gameOver.layer=100;
     gameOver.x=camera.x;
-    noLoop()
+    noLoop();
   }
 
 

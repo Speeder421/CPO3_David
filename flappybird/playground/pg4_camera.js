@@ -81,7 +81,7 @@ function draw(){
     spawnPipePair();
   }
   if (bird.collides(pipeGroup)||bird.collides(floor)){
-    noLoop()
+    noLoop();
   }
 
 
