@@ -100,11 +100,7 @@ function draw(){
     noLoop();
   }
 
-  if(kb.presses("spaces")||mouse.presses()){
-    startGame=true;
-    startScreenLabel.visible=false;
-    bird.visible=true;
-  }
+  
 }
 
 
