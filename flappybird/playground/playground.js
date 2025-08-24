@@ -85,7 +85,7 @@ function draw(){
     spawnPipePair();
   }
   if (bird.collides(pipeGroup)||bird.collides(floor)){
-    gameOverImg=new Sprite()
+    gameOverImg=new Sprite(width/2,height/2)
     noLoop()
   }
 
