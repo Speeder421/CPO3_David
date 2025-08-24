@@ -86,8 +86,9 @@ function draw(){
   }
   if (bird.collides(pipeGroup)||bird.collides(floor)){
     gameOver=new Sprite(width/2,height/2,192,42);
-    gameOver=gameOverImg
-    gameOver
+    gameOver=gameOverImg;
+    gameOver.layer=100;
+    
     noLoop()
   }
 
