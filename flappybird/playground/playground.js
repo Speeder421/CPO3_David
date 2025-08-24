@@ -43,7 +43,7 @@ function setup(){
   gameover=new Sprite();
   gameOver.x=width/2;
   gameOver.y=height/2;
-  
+  gameover.width
 
 }
 
