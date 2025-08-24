@@ -104,6 +104,7 @@ function draw(){
     startScreenLabel.visible=false;
     bird.visible=true;
   }
+  
 
 
 }
