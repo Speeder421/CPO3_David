@@ -45,7 +45,7 @@ function setup(){
   gameOver.y=height/2;
   gameover.width=192;
   gameOver.height=42;
-  game
+  gameOver.collider='static';
 
 }
 
