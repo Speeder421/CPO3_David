@@ -6,7 +6,7 @@ let pipeGroup;
 let bottomPipe,topPipe;
 let gameOver;
 let startScreenLabel;
-let startScreenImg
+let startScreenImg;
 
 function preload(){
   flapMidImg=loadImage('assets/yellowbird-midflap.png');
@@ -16,6 +16,7 @@ function preload(){
   flapDownImg=loadImage('assets/yellowbird-downflap.png')
   pipeImg=loadImage('assets/pipe-green.png');
   gameOverImg=loadImage('assets/gameover.png')
+  startScreenImg
 }
 
 function setup(){
