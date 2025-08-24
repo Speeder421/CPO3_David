@@ -132,7 +132,6 @@ function spawnPipePair(){
   let gap = 70;
   let midY = random(250, height - 250); 
 
-  // create the top pipe
   topPipe = new Sprite(bird.x + 400, midY - gap / 2 - 200, 52, 320, 'static');
   topPipe.img = pipe;
   topPipe.rotation = 180;
