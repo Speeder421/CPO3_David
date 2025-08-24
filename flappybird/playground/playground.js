@@ -66,7 +66,7 @@ function setup() {
 
 function draw() {
   image(bg, 0, 0, width, height);   
-  drawScore(width/2)     
+  drawScore(width/2,20,score,24,36);     
 
  
   if (kb.presses('space') || mouse.presses()){
