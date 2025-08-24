@@ -67,9 +67,9 @@ function draw() {
   if (startGame){
     
     bird.collider = "dynamic"; 
-  // make the bird move "forward"
-    bird.x += 2; // make the bird move forward
-    camera.x = bird.x; // "lock" the camera pos to the bird.x pos
+
+    bird.x += 2; 
+    camera.x = bird.x; 
     floor.x = camera.x;// "lock" the floor pos to the bird.x pos
 
       // Apply upward push when space is pressed
