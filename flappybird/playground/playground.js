@@ -7,6 +7,7 @@ let bottomPipe,topPipe;
 let gameOver;
 let startScreenLabel;
 let startScreenImg;
+let startGame=false;
 
 function preload(){
   flapMidImg=loadImage('assets/yellowbird-midflap.png');
@@ -96,6 +97,10 @@ function draw(){
     gameOver.layer=100;
     gameOver.x=camera.x;
     noLoop();
+  }
+
+  if(kb.presses("spaces")||mouse.presses()){
+    startGame=True
   }
 
 
