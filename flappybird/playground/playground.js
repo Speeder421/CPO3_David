@@ -14,13 +14,10 @@ let startScreenImg; // declare variable for image
 function preload() {
     flapMidImg = loadImage('assets/yellowbird-midflap.png'); 
     flapUpImg = loadImage('assets/yellowbird-upflap.png');
-    flapDownImg = loadImage('assets/yellowbird-downflap.png')
-
+    flapDownImg = loadImage('assets/yellowbird-downflap.png');
     pipe = loadImage('assets/pipe-green.png');
-
     bg = loadImage('assets/background-day.png');
     base = loadImage('assets/base.png');
-
     gameoverImg = loadImage('assets/gameover.png'); // preload the image
 
     startScreenImg = loadImage('assets/message.png'); // preload the image
