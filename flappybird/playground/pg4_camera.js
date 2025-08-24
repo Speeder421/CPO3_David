@@ -12,7 +12,7 @@ function preload(){
   flapUpImg=loadImage('assets/yellowbird-upflap.png')
   flapDownImg=loadImage('assets/yellowbird-downflap.png')
   pipeImg=loadImage('assets/pipe-green.png');
-  
+  gameOverImg=loadImage('')
 }
 
 function setup(){
