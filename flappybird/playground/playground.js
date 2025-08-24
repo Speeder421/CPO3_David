@@ -56,16 +56,16 @@ function setup() {
 function draw() {
   image(bg, 0, 0, width, height);        
 
-  // at start of game, press space or mouse to start
+ 
   if (kb.presses('space') || mouse.presses()){
     startGame = true;
     startScreenLabel.visible = false;
     bird.visible = true;
   }
 
-  // if startGame flag is true, then run all the other code
+  
   if (startGame){
-    // new code to make bird dynamic only when game start
+    
     bird.collider = "dynamic"; 
   // make the bird move "forward"
     bird.x += 2; // make the bird move forward
