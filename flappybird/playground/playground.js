@@ -1,6 +1,6 @@
-let bird, floor; // objects
-let flapMidImg,  bg, base; // images
-let flapUpImg,flapDownImg; // images for flap up and down
+let bird, floor; 
+let flapMidImg,  bg, base; 
+let flapUpImg,flapDownImg; 
 let pipe; 
 let topPipe, bottomPipe;
 let pipeGroup; 
