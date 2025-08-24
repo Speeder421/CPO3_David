@@ -88,7 +88,7 @@ function draw(){
     gameOver=new Sprite(width/2,height/2,192,42);
     gameOver=gameOverImg;
     gameOver.layer=100;
-    gameOver.x=camera
+    gameOver.x=camera.x;
     noLoop()
   }
 
