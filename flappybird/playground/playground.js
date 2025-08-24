@@ -1,11 +1,11 @@
 let bird, floor; // objects
 let flapMidImg,  bg, base; // images
 let flapUpImg,flapDownImg; // images for flap up and down
-let pipe; // image for pipes
+let pipe; 
 let topPipe, bottomPipe;
-let pipeGroup; // declare the group for pipe
-let gameoverImg; // declare variable for image
-let gameoverLabel; // declare variable for game over sprite
+let pipeGroup; 
+let gameoverImg; 
+let gameoverLabel; 
 let startGame = false;
 let startScreenLabel; 
 let startScreenImg; 
