@@ -64,12 +64,10 @@ function draw() {
   }
   if (startGame){
     bird.collider = "dynamic"; 
-
     bird.x += 2; 
     camera.x = bird.x; 
     floor.x = camera.x;
 
-      
     if (kb.presses('space') || mouse.presses()) {
       bird.vel.y = -5; 
       bird.sleeping = false; 
