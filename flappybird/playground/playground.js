@@ -100,7 +100,8 @@ function draw(){
   }
 
   if(kb.presses("spaces")||mouse.presses()){
-    startGame=True
+    startGame=true;
+    start
   }
 
 
