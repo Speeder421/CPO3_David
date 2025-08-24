@@ -100,15 +100,14 @@ function draw() {
       spawnPipePair();
     }
 
-    // remove offscreenpipes
+   
     for (let pipe of pipeGroup){
       if (pipe.x < -50){
         pipe.remove();
       }
     }
 
-    // End Game on Collision
-    // note that this is checking collision against the group
+
     if (bird.collides(pipeGroup) || bird.collides(floor)){
       gameoverLabel = new Sprite(width/2, height/2, 192, 42);
       gameoverLabel.img = gameoverImg;
