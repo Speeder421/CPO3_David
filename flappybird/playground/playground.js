@@ -35,8 +35,8 @@ function setup() {
   // setting bird physics
   bird.collider = "static"; 
   bird.mass = 2;         // heavier = stronger pull from gravity
-  bird.drag = 0.02;      // air resistance
-  bird.bounciness = 0.5; // how much it bounces when hitting floor
+  bird.drag = 0.02;      
+  bird.bounciness = 0.5; 
   world.gravity.y = 10;
 
   // Floor to bounce bird
