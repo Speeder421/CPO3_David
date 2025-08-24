@@ -11,10 +11,7 @@ let startGame = false;
 let startScreenLabel; // declare variable for start screen
 let startScreenImg; // declare variable for image
 
-function preload() {
-    // bird image, background and the floor
-    flapMidImg = loadImage('assets/yellowbird-midflap.png'); 
-    // preload images for flap up and down
+function preload() {    flapMidImg = loadImage('assets/yellowbird-midflap.png'); 
     flapUpImg = loadImage('assets/yellowbird-upflap.png');
     flapDownImg = loadImage('assets/yellowbird-downflap.png')
 
