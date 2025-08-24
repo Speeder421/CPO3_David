@@ -9,7 +9,7 @@ let gameoverLabel;
 let startGame = false;
 let startScreenLabel; 
 let startScreenImg; 
-
+let score
 let list=[];
 
 function preload() {
