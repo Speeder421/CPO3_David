@@ -113,7 +113,6 @@ function draw() {
       gameoverLabel.img = gameoverImg;
       gameoverLabel.layer = 100;
       gameoverLabel.x = camera.x;
-
       noLoop(); 
     }
 
@@ -128,12 +127,8 @@ function draw() {
   
 }
  
-/* 
-Function to create a pair of pipes
-and add it to the group
-*/ 
+
 function spawnPipePair(){
-  // control the gap and height of the top and bottom pipe
   let gap = 70;
   // let midY = height / 2;
   let midY = random(250, height - 250); // random(min, max)
