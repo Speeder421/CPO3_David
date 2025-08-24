@@ -5,6 +5,7 @@ let pipeImg;
 let pipeGroup;
 let bottomPipe, topPipe;
 let gameOver;
+let gameOverImg;
 let startScreenLabel;
 let startScreenImg;
 let startGame = false;
