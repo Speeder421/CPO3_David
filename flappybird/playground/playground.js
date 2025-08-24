@@ -40,12 +40,6 @@ function setup(){
 
   pipeGroup=new Group();
 
-  gameover=new Sprite();
-  gameOver.x=width/2;
-  gameOver.y=height/2;
-  gameover.width=192;
-  gameOver.height=42;
-  gameOver.collider='static';
 
 
 }
