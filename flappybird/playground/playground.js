@@ -34,7 +34,7 @@ function setup() {
 
   // setting bird physics
   bird.collider = "static"; 
-  bird.mass = 2;         // heavier = stronger pull from gravity
+  bird.mass = 2;        
   bird.drag = 0.02;      
   bird.bounciness = 0.5; 
   world.gravity.y = 10;
