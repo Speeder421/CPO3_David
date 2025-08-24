@@ -16,7 +16,7 @@ function preload(){
   flapDownImg=loadImage('assets/yellowbird-downflap.png')
   pipeImg=loadImage('assets/pipe-green.png');
   gameOverImg=loadImage('assets/gameover.png')
-  startScreenImg
+  startScreenImg=loadImage('')
 }
 
 function setup(){
