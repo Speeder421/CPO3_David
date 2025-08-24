@@ -75,10 +75,10 @@ function draw() {
       
     if (kb.presses('space') || mouse.presses()) {
       bird.vel.y = -5; 
-      bird.sleeping = false; // wake up if sleeping
+      bird.sleeping = false; 
     }
     
-    // Activity: Change image according to flying action/ falling
+    
     if (bird.vel.y < -1) {
       bird.img = flapUpImg; // flying upward
       bird.rotation = -30; // rotate up
