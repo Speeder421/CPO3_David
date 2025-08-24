@@ -60,7 +60,7 @@ function draw(){
   text("isMoving:"+bird.isMoving,10,40);
   text("sleeping:"+bird.sleeping,10,60);
 
-  if(startGame)
+  if(startGame){
   if(kb.presses('space')||mouse.presses()){
     bird.vel.y=-5;
     bird.sleeping=false;
@@ -105,6 +105,7 @@ function draw(){
     startScreenLabel.visible=false;
     bird.visible=true;
   }
+}
 
 
 
