@@ -70,11 +70,11 @@ function draw() {
 
     bird.x += 2; 
     camera.x = bird.x; 
-    floor.x = camera.x;// "lock" the floor pos to the bird.x pos
+    floor.x = camera.x;
 
-      // Apply upward push when space is pressed
+      
     if (kb.presses('space') || mouse.presses()) {
-      bird.vel.y = -5; // which direction do you think this is?
+      bird.vel.y = -5; 
       bird.sleeping = false; // wake up if sleeping
     }
     
