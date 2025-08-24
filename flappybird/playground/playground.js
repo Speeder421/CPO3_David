@@ -146,3 +146,5 @@ function spawnPipePair(){
   pipeGroup.add(bottomPipe);
   pipeGroup.layer = 0;
 }
+
+function drawScore(x,y,score,digitWidth,digitHeight){}
