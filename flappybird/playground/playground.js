@@ -32,14 +32,13 @@ function setup() {
   bird.img = flapMidImg; 
   bird.visible = false;
 
-  // setting bird physics
   bird.collider = "static"; 
   bird.mass = 2;        
   bird.drag = 0.02;      
   bird.bounciness = 0.5; 
   world.gravity.y = 10;
 
-  // Floor to bounce bird
+  
   floor = new Sprite();
   floor.x = 200;
   floor.y = height - 20;
