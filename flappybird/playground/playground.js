@@ -101,7 +101,8 @@ function draw(){
 
   if(kb.presses("spaces")||mouse.presses()){
     startGame=true;
-    startScreenLabel.visible
+    startScreenLabel.visible=false;
+    bird.visible=true;
   }
 
 
