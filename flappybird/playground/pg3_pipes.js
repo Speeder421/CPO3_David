@@ -68,23 +68,32 @@ function draw(){
     bird.rotation=0;
   }
 
+  bird.x=bird.x+2;
+  camera.x=bird.x;
+  floor.x=bird.x;
+
   if(frameCount===1){
     spawnPipePair();
+  }
+  else if(frameCount%80==0){
+    spawnPipePair();
+  }
+  if (bird.collides(pipeGroup)||bird.collides(floor)){
+    noLoop()
   }
 
 
 }
 function spawnPipePair(){
   let gap=60;
-  let midY=height/2;
-  bottomPipe=new Sprite(350,midY+gap/2+200,52,320,"static");
+  let midY=random(250,height-250);
+  bottomPipe=new Sprite(bird.x+350,midY+gap/2+200,52,320,"static");
   bottomPipe.img=pipeImg;
   pipeGroup.add(bottomPipe);
   pipeGroup.layer=0;
 
-  topPipe=new Sprite(350,midY-gap/2-200,52,320,"static")
+  topPipe=new Sprite(bird.x+350,midY-gap/2-200,52,320,"static")
   topPipe.img=pipeImg;
   pipeGroup.add(topPipe);
   topPipe.rotation=-180;
-
 }
