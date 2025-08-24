@@ -101,7 +101,7 @@ function draw(){
 
   if(kb.presses("spaces")||mouse.presses()){
     startGame=true;
-    start
+    startScreenLabel.visible
   }
 
 
