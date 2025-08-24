@@ -18,9 +18,8 @@ function preload() {
     pipe = loadImage('assets/pipe-green.png');
     bg = loadImage('assets/background-day.png');
     base = loadImage('assets/base.png');
-    gameoverImg = loadImage('assets/gameover.png'); // preload the image
-
-    startScreenImg = loadImage('assets/message.png'); // preload the image
+    gameoverImg = loadImage('assets/gameover.png');
+    startScreenImg = loadImage('assets/message.png'); 
 }
 
 function setup() {
