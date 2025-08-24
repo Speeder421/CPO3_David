@@ -40,7 +40,7 @@ function setup(){
 
   pipeGroup=new Group();
 
-  gameover=new
+  gameover=new Sprite();
 }
 
 function draw(){
