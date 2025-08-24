@@ -147,4 +147,6 @@ function spawnPipePair(){
   pipeGroup.layer = 0;
 }
 
-function drawScore(x,y,score,digitWidth,digitHeight){}
+function drawScore(x,y,score,digitWidth,digitHeight){
+  scoreDigits.removel
+}
