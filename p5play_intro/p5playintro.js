@@ -20,7 +20,7 @@ function setup() {
 
 function draw() {
   // write your codes here
-  if(keyPressed('space')){
+  if(keyPressed()){
     for(let i=0;i<=20;i++){
       new Sprite(getRandom(0,800),getRandom(0,400),getRandom(1,50),'solid');
 
