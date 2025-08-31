@@ -35,7 +35,9 @@ function setup() {
 function draw() {
   // write your codes here
   background(250);
-  if(keyPressed())
+  if(keyPressed()){
+    
+  }
   // fill(0);
   // textSize(16);
   // text("Ball:("+int(ball.x)+","+int(ball.y)+")",10,20);
