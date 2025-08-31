@@ -36,7 +36,7 @@ function draw() {
   // write your codes here
   background(250);
   if(keyPressed()){
-    
+    new Sprite()
   }
   // fill(0);
   // textSize(16);
