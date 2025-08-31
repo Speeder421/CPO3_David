@@ -2,8 +2,7 @@ function setup() {
   // Set up the canvas
   new Canvas(800, 400);
   background(250); //background color
-  let max = 10;
-  let random = Math.floor(Math.random() * max);
+
    // Outputs an integer from 0 to 9
   
   // Basic shape testing
@@ -56,3 +55,8 @@ function draw() {
   // box.y=mouse.y
 }
 
+    function getRandomIntInclusive(min, max) {
+        min = Math.ceil(min);
+        max = Math.floor(max);
+        return Math.floor(Math.random() * (max - min + 1)) + min;
+    }
