@@ -38,6 +38,7 @@ function draw() {
   // write your codes here
   background(250);
   if(keyPressed()){
+    for(let i=0;i<20;)
     new Sprite(getRandom(0,800),getRandom(0,400),getRandom(1,50))
   }
   // fill(0);
