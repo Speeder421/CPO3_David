@@ -38,7 +38,7 @@ function draw() {
   // write your codes here
   background(250);
   if(keyPressed()){
-    new Sprite(getRandom(0,800),getRandom(0,400))
+    new Sprite(getRandom(0,800),getRandom(0,400),getRandom(1))
   }
   // fill(0);
   // textSize(16);
