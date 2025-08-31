@@ -3,7 +3,7 @@ function setup() {
   new Canvas(800, 400);
   background(250); //background color
   let max = 10;
-  let randomInt = Math.floor(Math.random() * max);
+  let random = Math.floor(Math.random() * max);
    // Outputs an integer from 0 to 9
   
   // Basic shape testing
