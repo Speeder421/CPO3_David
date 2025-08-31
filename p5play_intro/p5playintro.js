@@ -4,8 +4,8 @@ function setup() {
   background(250); //background color
   let max = 10;
   let randomInt = Math.floor(Math.random() * max);
-  console.log(randomInt); // Outputs an integer from 0 to 9
-  let random=Math.random()
+   // Outputs an integer from 0 to 9
+  
   // Basic shape testing
   // write your codes here
   // End Basic shape testing
