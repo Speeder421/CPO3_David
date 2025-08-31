@@ -2,7 +2,7 @@ function setup() {
   // Set up the canvas
   new Canvas(800, 400);
   background(250); //background color
-  let random=Math.random
+  let random=Math.random()
   // Basic shape testing
   // write your codes here
   // End Basic shape testing
@@ -36,7 +36,7 @@ function draw() {
   // write your codes here
   background(250);
   if(keyPressed()){
-    new Sprite(Math.random())
+    new Sprite()
   }
   // fill(0);
   // textSize(16);
