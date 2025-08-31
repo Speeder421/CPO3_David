@@ -39,7 +39,7 @@ function draw() {
   background(250);
   if(keyPressed()){
     for(let i=0;i<20;i++){
-      new Sprite(getRandom(0,800),getRandom(0,400),getRandom(1,50),'')
+      new Sprite(getRandom(0,800),getRandom(0,400),getRandom(1,50),'solid')
 
     }
   }
