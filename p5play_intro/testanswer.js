@@ -2,9 +2,9 @@ let floor;
 let ball;
 
 function setup(){
-    new Canvas(400,600);
+    new Canvas(600,600);
     background(225);
 }
 function draw(){
-    background(225)
+    background(225);
 }
