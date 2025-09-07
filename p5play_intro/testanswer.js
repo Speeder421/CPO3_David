@@ -4,7 +4,7 @@ let ball;
 function setup(){
     new Canvas(600,400);
     ball = new Sprite();
-    ball.diametee
+    ball.diameter=40;
 }
 function draw(){
     background(225);
