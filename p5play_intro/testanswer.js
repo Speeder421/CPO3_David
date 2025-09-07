@@ -5,6 +5,7 @@ function setup(){
     new Canvas(600,400);
     floor = new Sprite();
     floor.width=600
+    floor.height=40
     floor.y=400;
     floor.x=300;
     floor.collider="static";
