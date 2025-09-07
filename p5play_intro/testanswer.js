@@ -7,11 +7,11 @@ function setup(){
     // ball.y=0;
     // ball.x=300;
     // ball.diameter=40;
-    world.gravity.y=1;
+    world.gravity.y=10;
 }
 function draw(){
     background(225);
     if(mouse.pressed){
-        new Sprite(mouse.x,mouse.y,40)
+        new Sprite(mouse.x,mouse.y,40);
     }
 }
