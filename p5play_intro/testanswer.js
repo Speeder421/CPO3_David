@@ -10,7 +10,6 @@ function setup(){
     floor.x=300;
     floor.collider="static";
     world.gravity.y=10;
-    
 }
 function draw(){
     background(225);
