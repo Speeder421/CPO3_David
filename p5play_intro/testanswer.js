@@ -6,7 +6,7 @@ function setup(){
     floor = new Sprite();
     floor.y=400;
     floor.x=300;
-    floor.
+    floor.collider="static"
     world.gravity.y=10;
     
 }
