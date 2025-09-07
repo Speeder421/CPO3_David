@@ -5,7 +5,7 @@ function setup(){
     new Canvas(600,400);
     ball = new Sprite();
     ball.diameter=40;
-    AudioWorkletNode.gravity.y
+    world.gravity.y=10;
 }
 function draw(){
     background(225);
