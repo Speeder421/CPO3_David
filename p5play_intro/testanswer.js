@@ -8,6 +8,7 @@ function setup(){
     // ball.x=300;
     // ball.diameter=40;
     world.gravity.y=10;
+    new
 }
 function draw(){
     background(225);
