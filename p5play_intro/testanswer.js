@@ -16,6 +16,6 @@ function draw(){
     background(225);
     if(mouse.presses()){
         ball=new Sprite(mouse.x,mouse.y,40,40);
-        ball.collider=""
+        
     }
 }
