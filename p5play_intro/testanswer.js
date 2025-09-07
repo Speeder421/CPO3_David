@@ -4,7 +4,7 @@ let ball;
 function setup(){
     new Canvas(600,400);
     floor = new Sprite();
-    ball.y=0;
+    floor.y=0;
     ball.x=300;
     ball.diameter=40;
     world.gravity.y=10;
