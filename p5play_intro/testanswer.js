@@ -3,7 +3,7 @@ let ball;
 
 function setup(){
     new Canvas(600,400);
-    new SpeechRecognitionResult()
+    new Sprite()
 }
 function draw(){
     background(225);
