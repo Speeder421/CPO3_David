@@ -3,7 +3,7 @@ let ball;
 
 function setup(){
     new Canvas(600,400);
-    new Sprite()
+    new Sprite(MouseEvent.x,)
 }
 function draw(){
     background(225);
