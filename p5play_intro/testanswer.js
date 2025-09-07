@@ -6,7 +6,7 @@ function setup(){
     floor = new Sprite();
     floor.y=400;
     floor.x=300;
-    ball.diameter=40;
+    floor.
     world.gravity.y=10;
     
 }
