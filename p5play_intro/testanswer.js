@@ -3,7 +3,8 @@ let ball;
 
 function setup(){
     new Canvas(600,400);
-    new Sprite();
+    ball = new Sprite();
+    ball.diametee
 }
 function draw(){
     background(225);
