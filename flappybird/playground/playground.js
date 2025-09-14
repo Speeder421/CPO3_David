@@ -168,3 +168,6 @@ function drawScore(x,y,score,digitWidth,digitHeight){
 
 
 
+
+
+
