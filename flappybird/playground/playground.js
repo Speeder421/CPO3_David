@@ -65,7 +65,8 @@ function setup() {
 }
 
 function draw() {
-  image(bg, 0, 0, width, height);   
+  image(bg, 0, 0, width, height);  
+   
   drawScore(width/2,20,score,24,36);     
 
  
