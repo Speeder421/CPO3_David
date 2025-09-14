@@ -162,6 +162,6 @@ function drawScore(x,y,score,digitWidth,digitHeight){
   }
 }
 function movegroup(group,targetx,spacing){
-  let totalwidth=(group.length)
+  let totalwidth=(group.length-1)
   
 }
