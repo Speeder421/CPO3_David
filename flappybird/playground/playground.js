@@ -160,3 +160,6 @@ function drawScore(x,y,score,digitWidth,digitHeight){
     digitSprite.img=list[digit];
   }
 }
+function movegroup(group,targetx,spacing){
+  
+}
