@@ -165,4 +165,5 @@ function movegroup(group,targetx,spacing){
   let totalWidth=(group.length-1)*spacing;
   
   
+  
 }
