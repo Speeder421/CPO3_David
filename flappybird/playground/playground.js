@@ -155,7 +155,7 @@ function drawScore(x,y,score,digitWidth,digitHeight){
   let startX=x-totalWidth/2;
   for(let i=0;i<scoreStr.length;i++){
     let digit=int(scoreStr[i]);
-    let xpos=startx+i*digitWidth;
+    let xpos=startX+i*digitWidth;
     let digitSprite=new scoreDigits.Sprite(xpos,y,digitWidth,digitHeight);
 
   }
