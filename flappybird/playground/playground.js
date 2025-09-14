@@ -66,7 +66,7 @@ function setup() {
 
 function draw() {
   image(bg, 0, 0, width, height);  
-   
+
   drawScore(width/2,20,score,24,36);     
 
  
@@ -151,6 +151,6 @@ function spawnPipePair(){
 function drawScore(x,y,score,digitWidth,digitHeight){
   scoreDigits.removeAll();
   let scoreStr=str(score);
-  let totalWidth=scoreStr.length*digitWidth;
+  let totalWidth=scoreStr.length * d  i gitWidth;
   let startX=x-totalWidth/2;
 }
