@@ -167,7 +167,4 @@ function movegroup(group,targetx,spacing){
   for(let i=0;i<group.length;i++){
     group[i].x=startX+i*spacing;
   }
-
-  
-  
 }
