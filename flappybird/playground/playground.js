@@ -158,6 +158,5 @@ function drawScore(x,y,score,digitWidth,digitHeight){
     let xpos=startX+i*digitWidth;
     let digitSprite=new scoreDigits.Sprite(xpos,y,digitWidth,digitHeight);
     digitSprite.img=list[digit];
-    
   }
 }
