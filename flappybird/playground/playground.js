@@ -153,3 +153,18 @@ function drawScore(x,y,score,digitWidth,digitHeight){
   let totalWidth=scoreStr.length*digitWidth;
   let startX=x-totalWidth/2;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
