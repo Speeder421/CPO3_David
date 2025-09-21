@@ -74,7 +74,7 @@ function draw() {
     let birdleft=bird.x-(bird.w/2);
     if(pipe.passed=false||piperight<birdleft){
       pipe.passed=true;
-      score
+      score++;
     }
   }
 
