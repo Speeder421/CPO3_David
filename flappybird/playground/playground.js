@@ -68,16 +68,6 @@ function draw() {
   image(bg, 0, 0, width, height);  
 
   drawScore(width/2,20,score,24,36);    
-  
-  for(let pipe of pipeGroup){
-    let piperight=pipe.x+(pipe.w/2);
-    let birdleft=bird.x-(bird.w/2);
-    if(pipe.passed=false&&piperight<birdleft){
-      pipe.passed=true;
-      score++;
-    }
-  }
-
  
   if (kb.presses('space') || mouse.presses()){
     startGame = true;
