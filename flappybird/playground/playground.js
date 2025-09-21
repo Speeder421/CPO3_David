@@ -70,7 +70,8 @@ function draw() {
   drawScore(width/2,20,score,24,36);    
   
   for(let pipe of pipegroup){
-    let piperight=pipe.x+(pipe.w/2)  }
+    let piperight=pipe.x+(pipe.w/2);
+  }
 
  
   if (kb.presses('space') || mouse.presses()){
