@@ -150,7 +150,7 @@ function draw() {
         bird.y=200;
         loop()
 
-      })
+      },3000);
     }
 
 
