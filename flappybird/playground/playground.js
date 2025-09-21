@@ -86,9 +86,9 @@ function draw() {
  
   if (kb.presses('space') || mouse.presses()){
     startGame = true;
+     flapsound.play();
     startScreenLabel.visible = false;
     bird.visible = true;
-    flapsound.play();
   }
   if (startGame){
     bird.collider = "dynamic"; 
