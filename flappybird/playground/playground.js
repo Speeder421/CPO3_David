@@ -139,7 +139,15 @@ function draw() {
       gameoverLabel.x = camera.x;
       failsound.play()
       noLoop(); 
-      setT
+      setTimeout(()=>{
+        score=0;
+        startGame=false;
+        pipe.removeAll();
+        bird.vel.x=0;
+        bird.vel.y=0;
+        bird.rot 
+
+      })
     }
 
 
