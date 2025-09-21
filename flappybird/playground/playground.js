@@ -12,6 +12,7 @@ let startScreenImg;
 let score=0;
 let list=[];
 let scoreDigits;
+let flapsound;
 
 
 function preload() {
