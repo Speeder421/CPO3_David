@@ -80,6 +80,7 @@ function draw() {
       if(pipe.passed==false&&piperight<birdleft){
         pipe.passed=true;
         score++;
+        pointsound.play()
     }
   }
   drawScore(width/2,20,score,24,36);    
