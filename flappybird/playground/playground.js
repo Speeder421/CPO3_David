@@ -13,7 +13,8 @@ let score=0;
 let list=[];
 let scoreDigits;
 let flapsound;
-
+let pointsound;
+let failsound;
 
 function preload() {
     flapMidImg = loadImage('assets/yellowbird-midflap.png'); 
