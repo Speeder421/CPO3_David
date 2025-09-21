@@ -72,6 +72,9 @@ function draw() {
   for(let pipe of pipegroup){
     let piperight=pipe.x+(pipe.w/2);
     let birdleft=bird.x-(bird.w/2);
+    if(pipe.passed=false||piperight<birdleft){
+      
+    }
   }
 
  
