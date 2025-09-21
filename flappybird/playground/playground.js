@@ -148,7 +148,8 @@ function draw() {
         bird.rotation=0;
         bird.collider="static";
         bird.y=200;
-        gameoverLabel
+        gameoverLabel.remove();
+        start
         loop();
 
       },3000);
