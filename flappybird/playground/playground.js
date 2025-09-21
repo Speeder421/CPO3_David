@@ -88,7 +88,7 @@ function draw() {
     startGame = true;
     startScreenLabel.visible = false;
     bird.visible = true;
-    flapsound.play()
+    flapsound.play();
   }
   if (startGame){
     bird.collider = "dynamic"; 
