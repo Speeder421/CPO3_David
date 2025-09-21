@@ -28,7 +28,8 @@ function preload() {
     for(let i=0;i<10;i++){
       list[i]=loadImage('assets/'+i+'.png');
     }
-    flapsound=createAudio('assets/sfx_wing.mp3')
+    flapsound=createAudio('assets/sfx_wing.mp3');
+    flapsound=createAudio('assets/sfx_wing.mp3');
 }
 
 function setup() {
