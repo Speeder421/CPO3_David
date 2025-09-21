@@ -29,7 +29,7 @@ function preload() {
       list[i]=loadImage('assets/'+i+'.png');
     }
     flapsound=createAudio('assets/sfx_wing.mp3');
-    flapsound=createAudio('assets/sfx_wing.mp3');
+    pointsound=createAudio('assets/sfx_wing.mp3');
 }
 
 function setup() {
