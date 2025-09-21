@@ -69,7 +69,9 @@ function draw() {
 
   drawScore(width/2,20,score,24,36);    
   
-  for(let pipe of pipegro)
+  for(let pipe of pipegroup){
+    
+  }
 
  
   if (kb.presses('space') || mouse.presses()){
