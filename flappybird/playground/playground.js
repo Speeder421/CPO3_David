@@ -30,7 +30,8 @@ function preload() {
     }
     flapsound=createAudio('assets/sfx_wing.mp3');
     pointsound=createAudio('assets/sfx_point.mp3');
-    flappybird/assets/sfx_point.mp3
+    pointsound=createAudio('assets/sfx_point.mp3');
+    
 }
 
 function setup() {
