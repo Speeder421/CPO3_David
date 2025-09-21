@@ -136,6 +136,7 @@ function draw() {
       gameoverLabel.img = gameoverImg;
       gameoverLabel.layer = 100;
       gameoverLabel.x = camera.x;
+      fail
       noLoop(); 
     }
 
