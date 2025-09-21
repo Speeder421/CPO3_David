@@ -80,6 +80,7 @@ function draw() {
     bird.x += 2; 
     camera.x = bird.x; 
     floor.x = camera.x;
+    
 
     if (kb.presses('space') || mouse.presses()) {
       bird.vel.y = -5; 
@@ -142,7 +143,7 @@ function spawnPipePair(){
   topPipe.img = pipe;
   topPipe.rotation = 180;
   topPipe.passed=false;
-  
+
   bottomPipe = new Sprite(bird.x + 400, midY + gap / 2 + 200, 52, 320, 'static');
   bottomPipe.img = pipe;
   pipeGroup.add(topPipe);
