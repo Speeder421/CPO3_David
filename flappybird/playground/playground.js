@@ -148,11 +148,12 @@ function draw() {
         bird.rotation=0;
         bird.collider="static";
         bird.y=200;
+        bird.visible=false;
         gameoverLabel.remove();
         startScreenLabel.visible=true;
         startScreenLabel.x=bird.x;
         startScreenLabel.y=height/2-50;
-        
+
         loop();
 
       },3000);
