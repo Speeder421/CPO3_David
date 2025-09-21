@@ -139,6 +139,7 @@ function draw() {
       gameoverLabel.x = camera.x;
       failsound.play()
       noLoop(); 
+      setT
     }
 
 
