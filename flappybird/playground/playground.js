@@ -30,7 +30,7 @@ function preload() {
     }
     flapsound=createAudio('assets/sfx_wing.mp3');
     pointsound=createAudio('assets/sfx_point.mp3');
-    failsound=createAudio('assets/sfx_point.mp3');
+    failsound=createAudio('assets/sfx_die.mp3');
     
 }
 
