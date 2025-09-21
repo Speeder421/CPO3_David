@@ -13,6 +13,7 @@ let score=0;
 let list=[];
 let scoreDigits;
 
+
 function preload() {
     flapMidImg = loadImage('assets/yellowbird-midflap.png'); 
     flapUpImg = loadImage('assets/yellowbird-upflap.png');
