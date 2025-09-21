@@ -145,7 +145,7 @@ function draw() {
         pipe.removeAll();
         bird.vel.x=0;
         bird.vel.y=0;
-        bird.rot 
+        bird.rotation=9
 
       })
     }
