@@ -67,7 +67,9 @@ function setup() {
 function draw() {
   image(bg, 0, 0, width, height);  
 
-  drawScore(width/2,20,score,24,36);     
+  drawScore(width/2,20,score,24,36);    
+  
+  for(let pipe of pipegro)
 
  
   if (kb.presses('space') || mouse.presses()){
@@ -124,7 +126,7 @@ function draw() {
       noLoop(); 
     }
 
-    
+
 
     fill("blue");
     textSize(14);
