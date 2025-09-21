@@ -148,6 +148,7 @@ function draw() {
         bird.rotation=0;
         bird.collider="static";
         bird.y=200;
+        loop()
 
       })
     }
