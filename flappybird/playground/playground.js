@@ -80,7 +80,7 @@ function draw() {
     bird.x += 2; 
     camera.x = bird.x; 
     floor.x = camera.x;
-    
+
 
     if (kb.presses('space') || mouse.presses()) {
       bird.vel.y = -5; 
@@ -124,6 +124,7 @@ function draw() {
       noLoop(); 
     }
 
+    
 
     fill("blue");
     textSize(14);
