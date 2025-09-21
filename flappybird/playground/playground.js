@@ -151,6 +151,7 @@ function draw() {
         gameoverLabel.remove();
         startScreenLabel.visible=true;
         startScreenLabel.x=bird.x;
+        startScreenLabel.y=bird.x;
         loop();
 
       },3000);
