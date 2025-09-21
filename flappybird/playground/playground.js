@@ -71,6 +71,7 @@ function draw() {
   
   for(let pipe of pipegroup){
     let piperight=pipe.x+(pipe.w/2);
+    let piper=pipe.x+(pipe.w/2);
   }
 
  
