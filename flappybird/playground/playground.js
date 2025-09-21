@@ -70,7 +70,7 @@ function draw() {
     for(let pipe of pipeGroup){
       let piperight=pipe.x+(pipe.w/2);
       let birdleft=bird.x-(bird.w/2);
-      if(pipe.passed=false&&piperight<birdleft){
+      if(pipe.passed==false&&piperight<birdleft){
         pipe.passed=true;
         score++;
     }
