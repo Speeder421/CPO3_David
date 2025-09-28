@@ -25,5 +25,6 @@ function setup(){
         flipped:true,
     };
     video=createCapture(constraints);
-    video.size=()
+    video.size=(640,480);
+    
 }
