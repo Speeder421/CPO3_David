@@ -24,5 +24,5 @@ function setup(){
         audio:false,
         flipped:true,
     };
-    video=create
+    video=createCapture(constraints)
 }
