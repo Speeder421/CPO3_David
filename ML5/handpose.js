@@ -1,5 +1,6 @@
 let handpose;
 let videoW=640,videoH=480;
+let video;
 function preload(){
     let options={
         flipped:true,
@@ -23,4 +24,5 @@ function setup(){
         audio:false,
         flipped:true,
     };
+    video=create
 }
