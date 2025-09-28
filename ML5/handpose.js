@@ -14,7 +14,9 @@ function setup(){
     createCanvas(videoW,videoH)
     let constraints={
         video:{
-            man
+            mandatory:{
+                
+            }
         }
     }
 }
