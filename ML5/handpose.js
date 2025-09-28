@@ -16,7 +16,7 @@ function setup(){
         video:{
             mandatory:{
                 minWidth:videoW,
-                minHeight:video
+                minHeight:videoH,
             }
         }
     }
