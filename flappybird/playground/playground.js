@@ -139,7 +139,7 @@ function draw() {
       gameoverLabel.x = camera.x;
       failsound.play()
       noLoop(); 
-      if (kb.presses('space') || mouse.presses()) {
+      
         setTimeout(()=>{
           score=0;
           startGame=false;
@@ -170,7 +170,7 @@ function draw() {
     text('bird.x: ' + bird.x.toFixed(2), 10, 80);
   }
   
-}
+
  
 
 function spawnPipePair(){
