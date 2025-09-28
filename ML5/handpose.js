@@ -10,3 +10,4 @@ function preload(){
 
     }
 }
+handpose=ml5.handpose(options)
