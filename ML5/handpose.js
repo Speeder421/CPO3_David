@@ -5,7 +5,7 @@ function preload(){
         runtime:'tfjs',
         modeltype:'full',
         detectorModelURL:undefined,
-        landMarkModel:undefined
+        landMarkModel:undefined,
 
 
     }
