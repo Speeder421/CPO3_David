@@ -6,8 +6,6 @@ function preload(){
         modeltype:'full',
         detectorModelURL:undefined,
         landMarkModel:undefined,
-
-
     }
+    handpose=ml5.handpose(options);
 }
-handpose=ml5.handpose(options);
