@@ -37,7 +37,7 @@ function draw(){
         let hand=hands[i];
         for(let j=0;j<hands.keypoints.length;j++){
             let keypoint=hand.keypoint[j];
-            CSSNumericValue()
+            circle(keypoint.x,)
         }
     }
 }
