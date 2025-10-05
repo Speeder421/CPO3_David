@@ -55,7 +55,9 @@ function draw(){
         fingerTip.y=keypoint.y;
         fingerTip.visible=true;
     }
-
+    else{
+        
+    }
 }
 function gotHands(result){
     hands=result;
