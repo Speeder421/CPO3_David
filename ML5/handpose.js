@@ -29,3 +29,4 @@ function setup(){
     video.hide();
     handpose.detectStart(video,gotHands);
 }
+function gotHands(result)
