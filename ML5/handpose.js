@@ -30,6 +30,9 @@ function setup(){
     video.hide();
     handpose.detectStart(video,gotHands);
 }
+function draw(){
+    
+}
 function gotHands(result){
-    hands=result
+    hands=result;
 }
