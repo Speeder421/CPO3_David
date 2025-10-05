@@ -15,7 +15,8 @@ function preload(){
 function setup(){
     createCanvas(videoW,videoH)
     fingerTip=new Sprite();
-    fingerTip
+    fingerTip.diameter=60;
+    finge
 
     let constraints={
         video:{
