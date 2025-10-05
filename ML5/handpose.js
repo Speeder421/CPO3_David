@@ -1,6 +1,7 @@
 let handpose;
 let videoW=640,videoH=480;
 let video;
+let hands=[];
 function preload(){
     let options={
         flipped:true,
@@ -30,5 +31,5 @@ function setup(){
     handpose.detectStart(video,gotHands);
 }
 function gotHands(result){
-    
+
 }
