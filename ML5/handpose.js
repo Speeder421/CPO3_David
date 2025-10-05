@@ -31,7 +31,7 @@ function setup(){
     handpose.detectStart(video,gotHands);
 }
 function draw(){
-    Image();
+    Image(video,0,0);
 }
 function gotHands(result){
     hands=result;
