@@ -34,7 +34,7 @@ function draw(){
     image(video,0,0,videoW,videoH);
 
     for(let i=0;i<hands.length;i++){
-        
+        let hand=hands
     }
 }
 function gotHands(result){
