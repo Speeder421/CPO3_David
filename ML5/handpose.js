@@ -35,8 +35,8 @@ function draw(){
 
     for(let i=0;i<hands.length;i++){
         let hand=hands[i];
-        for(let i=0;i<hands.length;i++){
-            
+        for(let j=0;j<hands.length;j++){
+
         }
     }
 }
