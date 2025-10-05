@@ -40,8 +40,10 @@ function draw(){
     //         circle(keypoint.x,keypoint.y,10);
     //     }
     // }
+    if (hands.length>0){
+        
+    }
 
-    
 }
 function gotHands(result){
     hands=result;
