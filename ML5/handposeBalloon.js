@@ -17,7 +17,7 @@ function setup(){
     fingerTip=new Sprite();
     fingerTip.diameter=60;
     fingerTip.collider="kinmetic";
-    fingerTip.color=rgba(52,255,)
+    fingerTip.color='rgba(52,255,2,0.05)';
 
 
     let constraints={
