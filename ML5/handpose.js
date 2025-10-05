@@ -32,6 +32,10 @@ function setup(){
 }
 function draw(){
     image(video,0,0,videoW,videoH);
+
+    for(let i=0;i<hands.length;i++){
+        
+    }
 }
 function gotHands(result){
     hands=result;
