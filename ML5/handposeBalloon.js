@@ -16,7 +16,7 @@ function setup(){
     createCanvas(videoW,videoH)
     fingerTip=new Sprite();
     fingerTip.diameter=60;
-    fingerTip.collider="dynamic";
+    fingerTip.collider="kinmetic";
     fingerTip.color='rgba(52,255,2,0.05)';
 
 
