@@ -52,7 +52,8 @@ function draw(){
         circle(keypoint.x,keypoint.y,30);
 
         fingerTip.x=keypoint.x;
-        fingerTip.y=keyp
+        fingerTip.y=keypoint.y;
+        
     }
 
 }
