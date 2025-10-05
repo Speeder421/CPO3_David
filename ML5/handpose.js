@@ -1,4 +1,4 @@
-let handpose;
+let handPose;
 let videoW=640,videoH=480;
 let video;
 let hands=[];
