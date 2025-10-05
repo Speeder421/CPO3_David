@@ -56,7 +56,7 @@ function draw(){
         fingerTip.visible=true;
     }
     else{
-        fingerTip.visible=f
+        fingerTip.visible=false;
     }
 }
 function gotHands(result){
