@@ -14,7 +14,8 @@ function preload(){
 }
 function setup(){
     createCanvas(videoW,videoH)
-    fingerTip=new Sprite()
+    fingerTip=new Sprite();
+    fingerTip
 
     let constraints={
         video:{
