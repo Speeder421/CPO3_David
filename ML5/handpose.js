@@ -10,7 +10,7 @@ function preload(){
         detectorModelURL:undefined,
         landMarkModel:undefined,
     }
-    handpose=ml5.handpose(options);
+    handpose=ml5.handPose(options);
 }
 function setup(){
     createCanvas(videoW,videoH)
