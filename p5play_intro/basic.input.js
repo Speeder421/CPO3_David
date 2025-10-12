@@ -6,6 +6,7 @@ function setup(){
     inputtext=createInput();
     inputtext.position(200,height-80);
     inputtext.input(updateText);
+    colorpicker=create
 
 }
 function draw(){
