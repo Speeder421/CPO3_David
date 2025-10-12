@@ -1,4 +1,5 @@
-let 
+let inputtext;
+
 function setup(){
 
 }
