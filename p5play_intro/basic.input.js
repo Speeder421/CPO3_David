@@ -1,5 +1,5 @@
 let inputtext;
-
+let usertext="";
 function setup(){
 
 }
