@@ -10,3 +10,6 @@ function setup(){
 function draw(){
 
 }
+function updateText(){
+    
+}
