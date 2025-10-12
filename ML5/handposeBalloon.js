@@ -18,6 +18,7 @@ function setup(){
     world.gravity.y=6;
     balloon = new Sprite();
     balloon.diameter=60;
+    balloon.collider="dynamic"
     
     fingerTip=new Sprite();
     fingerTip.diameter=60;
