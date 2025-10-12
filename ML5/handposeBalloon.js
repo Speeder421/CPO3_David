@@ -11,6 +11,7 @@ function preload(){
         landMarkModel:undefined,
     }
     handPose=ml5.handPose(options);
+let balloon
 }
 function setup(){
     createCanvas(videoW,videoH)
