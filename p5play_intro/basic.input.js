@@ -12,7 +12,7 @@ function draw(){
     fill(0);
     textSize(28);
     textAlign(CENTER,CENTER);
-    text=usertext
+    text(usertext,w)
 
 
 
