@@ -6,7 +6,7 @@ function preload(){
     let options={
         flipped:true,
         runtime:'tfjs',
-        modeltype:'lite',
+        modeltype:'full',
         detectorModelURL:undefined,
         landMarkModel:undefined,
     }
