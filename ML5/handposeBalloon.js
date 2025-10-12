@@ -24,6 +24,8 @@ function setup(){
     balloon.y=100;
     balloon.bounciness=1;
     balloon.mass=2;
+    balloon.drage=0.01;
+    
     fingerTip=new Sprite();
     fingerTip.diameter=60;
     fingerTip.collider="kinametic";
