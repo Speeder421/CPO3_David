@@ -8,6 +8,8 @@ function setup(){
 
 }
 function draw(){
+    background=250;
+    
 
 }
 function updateText(){
