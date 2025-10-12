@@ -9,6 +9,7 @@ function setup(){
 }
 function draw(){
     background(250);
+    FileList(0);
     
 
 
