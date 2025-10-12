@@ -12,7 +12,7 @@ function setup(){
 
 }
 function draw(){
-    background(250);
+    background(colorpicker.value());
     fill(0);
     textSize(28);
     textAlign(CENTER,CENTER);
