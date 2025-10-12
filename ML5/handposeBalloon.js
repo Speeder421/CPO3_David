@@ -15,6 +15,7 @@ let balloon;
 }
 function setup(){
     createCanvas(videoW,videoH)
+    AudioWorkletNode.gravity.y=
     fingerTip=new Sprite();
     fingerTip.diameter=60;
     fingerTip.collider="kinametic";
