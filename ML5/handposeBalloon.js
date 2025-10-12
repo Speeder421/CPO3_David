@@ -19,13 +19,13 @@ function setup(){
     balloon = new Sprite();
     balloon.diameter=60;
     balloon.collider="dynamic"
-    ballloon.color="red";
+    balloon.color="red";
     balloon.x=videoW/2;
     balloon.y=100;
     balloon.bounciness=1;
     balloon.mass=2;
     balloon.drage=0.01;
-    
+
     fingerTip=new Sprite();
     fingerTip.diameter=60;
     fingerTip.collider="kinametic";
