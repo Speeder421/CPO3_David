@@ -10,7 +10,8 @@ function setup(){
 function draw(){
     background(250);
     fill(0);
-    text.size
+    textSize(28);
+    
 
 
 
