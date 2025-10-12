@@ -22,7 +22,7 @@ function setup(){
     ballloon.color="red";
     balloon.x=videoW/2;
     balloon.y=100;
-    
+    balloon.bounciness
     fingerTip=new Sprite();
     fingerTip.diameter=60;
     fingerTip.collider="kinametic";
