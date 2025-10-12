@@ -20,7 +20,7 @@ function setup(){
     balloon.diameter=60;
     balloon.collider="dynamic"
     ballloon.color="red";
-    balloon.x=width
+    balloon.x=videoW/2
     fingerTip=new Sprite();
     fingerTip.diameter=60;
     fingerTip.collider="kinametic";
