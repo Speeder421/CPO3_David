@@ -11,7 +11,7 @@ function draw(){
     background(250);
     fill(0);
     textSize(28);
-    textAlign(CustomElementRegistry,)
+    textAlign(CENTER,CENTER)
 
 
 
