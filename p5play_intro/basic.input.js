@@ -11,7 +11,8 @@ function draw(){
     background(250);
     fill(0);
     textSize(28);
-    textAlign(CENTER,CENTER)
+    textAlign(CENTER,CENTER);
+    text=usertext
 
 
 
