@@ -26,7 +26,7 @@ function setup(){
     balloon.mass=2;
     balloon.drage=0.01;
     topwall=new Sprite(videoW/2,0,videoW,10,'static');
-    bottomwall=new Sprite(videoW/2,0,videoW,10,'static');
+    bottomwall=new Sprite(videoW/2,videoH,videoW,10,'static');
 
 
     fingerTip=new Sprite();
