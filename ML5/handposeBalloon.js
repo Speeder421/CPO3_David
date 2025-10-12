@@ -17,6 +17,7 @@ function setup(){
     createCanvas(videoW,videoH)
     world.gravity.y=6;
     balloon = new Sprite();
+    balloon.diameter=60;
     
     fingerTip=new Sprite();
     fingerTip.diameter=60;
