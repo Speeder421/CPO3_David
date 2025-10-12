@@ -29,6 +29,7 @@ function setup(){
     bottomwall=new Sprite(videoW/2,videoH,videoW,10,'static');
     leftwall=new Sprite(0,videoH/2,10,videoH,'static');
     rightwall=new Sprite(videoW,videoH/2,10,videoH,'static');
+    boundaryGroup=
 
     fingerTip=new Sprite();
     fingerTip.diameter=60;
