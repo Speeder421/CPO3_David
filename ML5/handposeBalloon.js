@@ -67,7 +67,7 @@ function draw(){
     if (gameStarted===false){
         textSize(28);
         text.align(CENTER,CENTER);
-        
+        text
     }
 
     if (gameOver===false){
