@@ -65,7 +65,8 @@ function draw(){
     //     }
     // }
     if (gameStarted===false){
-        textSize()
+        textSize(28);
+        
     }
 
     if (gameOver===false){
