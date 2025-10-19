@@ -24,7 +24,7 @@ function setup(){
     balloon.color="red";
     balloon.x=videoW/2;
     balloon.y=100;
-    balloon.visible
+    balloon.visible=false;
     balloon.bounciness=1;
     balloon.mass=2;
     balloon.drag=0.01;
