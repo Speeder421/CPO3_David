@@ -97,8 +97,8 @@ function keypressed(){
         score=0;
         balloon.x=videoW/2;
         balloon.y=100;
-        balloon.visible=false;
-    balloon.bounciness=1;
+        balloon.visible=true;
+        balloon.bounciness=1;
     balloon.mass=2;
     balloon.drag=0.01;
     }
