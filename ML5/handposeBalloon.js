@@ -91,7 +91,7 @@ function gotHands(result){
     hands=result;
 }
 function keypressed(){
-    if (key===''){
+    if (key===' '){
         gameStarted===true;
         gameOver=false;
         score=0;
