@@ -68,7 +68,7 @@ function draw(){
         textSize(28);
         textAlign(CENTER,CENTER);
         text("Use index finger to bounce the ball",width/2,(height/2)-40);
-        text("Press space to start game",width/2,height/2-40);
+        text("Press space to start game",width/2,height/2);
     }
 
     if (gameOver===false){
