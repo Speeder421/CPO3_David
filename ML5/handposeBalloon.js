@@ -64,7 +64,9 @@ function draw(){
     //         circle(keypoint.x,keypoint.y,10);
     //     }
     // }
-    if (gameStarted)
+    if (gameStarted===false){
+        
+    }
 
     if (gameOver===false){
     if (hands.length>0){
