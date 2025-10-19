@@ -4,6 +4,7 @@ let video;
 let hands=[];
 let gameStarted=false;
 let gameOver=false;
+let pointsound;
 function preload(){
     let options={
         flipped:true,
