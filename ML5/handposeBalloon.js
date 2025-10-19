@@ -63,7 +63,8 @@ function draw(){
     //         let keypoint=hand.keypoints[j];
     //         circle(keypoint.x,keypoint.y,10);
     //     }
-    // 
+    // }
+    if (gameStarted)
 
     if (gameOver===false){
     if (hands.length>0){
