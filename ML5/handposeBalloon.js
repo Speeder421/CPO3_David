@@ -15,6 +15,7 @@ function preload(){
     }
     handPose=ml5.handPose(options);
 let balloon;
+    pointsound=createAudio('assets/sfx_point.mp3');
 }
 function setup(){
     createCanvas(videoW,videoH)
