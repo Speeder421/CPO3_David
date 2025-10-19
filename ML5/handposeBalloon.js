@@ -94,6 +94,7 @@ function keypressed(){
     if (key===''){
         gameStarted===true;
         gameOver=false;
+        score=0;
         
     }
 }
