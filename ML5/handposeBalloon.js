@@ -73,7 +73,9 @@ function draw(){
         text("Use index finger to bounce the ball",width/2,(height/2)-40);
         text("Press space to start game",width/2,height/2);
     }
-    if (balloon.collides(fingerTip))
+    if (balloon.collides(fingerTip)){
+        bounce
+    }
 
     if (gameOver===false){
     if (hands.length>0){
