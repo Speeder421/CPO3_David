@@ -92,6 +92,6 @@ function gotHands(result){
 }
 function keypressed(){
     if (key===''){
-        
+        gameStarted===true
     }
 }
