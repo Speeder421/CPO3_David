@@ -67,7 +67,7 @@ function draw(){
     if (gameStarted===false){
         textSize(28);
         text.align(CENTER,CENTER);
-        text("Use index finger to bounce the ball",width/2,hei)
+        text("Use index finger to bounce the ball",width/2,height/2-40)
     }
 
     if (gameOver===false){
