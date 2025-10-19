@@ -26,7 +26,7 @@ function setup(){
     balloon.y=100;
     balloon.bounciness=1;
     balloon.mass=2;
-    balloon.drage=0.01;
+    balloon.drag=0.01;
     topwall=new Sprite(videoW/2,0,videoW,10,'static');
     bottomwall=new Sprite(videoW/2,videoH,videoW,10,'static');
     leftwall=new Sprite(0,videoH/2,10,videoH,'static');
