@@ -90,4 +90,8 @@ function draw(){
 function gotHands(result){
     hands=result;
 }
-function keypressed(){}
+function keypressed(){
+    if (key===''){
+        
+    }
+}
