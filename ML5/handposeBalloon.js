@@ -75,6 +75,7 @@ function draw(){
     }
     if (balloon.collides(fingerTip)){
         pointsound.play();
+        score+=1;
     }
 
     if (gameOver===false){
