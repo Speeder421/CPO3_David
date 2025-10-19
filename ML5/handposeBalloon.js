@@ -74,7 +74,7 @@ function draw(){
         text("Press space to start game",width/2,height/2);
     }
     if (balloon.collides(fingerTip)){
-        
+        pointsound.play()
     }
 
     if (gameOver===false){
