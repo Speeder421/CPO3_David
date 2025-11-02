@@ -1,11 +1,10 @@
-let noun;
+let noun,nountext;
 let verb;
 let adj;
 let adv;
 let place;
 let button;
 
-let usertext="";
 
 function setup(){
     createCanvas(600,400);
