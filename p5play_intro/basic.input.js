@@ -1,5 +1,5 @@
 let inputtext;
-
+let button
 let usertext="";
 
 let colorpicker;
@@ -10,7 +10,7 @@ function setup(){
     inputtext.position(700,500);
     inputtext.input(updateText);
 
-    button
+    button=create
     
 
     colorpicker=createColorPicker("#63claff");
