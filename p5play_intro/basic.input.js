@@ -10,7 +10,7 @@ function setup(){
     inputtext.position(700,500);
     
 
-    button=createButton("show input");
+    button=createButton("Submit");
     button.mousePressed(updateText)
     
 
