@@ -9,6 +9,7 @@ function setup(){
     inputtext=createInput();
     inputtext.position(700,500);
     inputtext.input(updateText);
+    inputtext.hide()
 
     colorpicker=createColorPicker("#63claff");
     colorpicker.position(480,170);
@@ -21,7 +22,7 @@ function draw(){
     textSize(28);
     textAlign(CENTER,CENTER);
     text(usertext,width/2,180);
-    
+
 
 
 
