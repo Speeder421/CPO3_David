@@ -15,7 +15,7 @@ let balloon;
 }
 function setup(){
     createCanvas(videoW,videoH)
-    world.gravity.y=6;
+    world.gravity.y=0;
     balloon = new Sprite();
     balloon.diameter=60;
     balloon.collider="dynamic"
