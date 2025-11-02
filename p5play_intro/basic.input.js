@@ -4,7 +4,6 @@ let colorpicker;
 function setup(){
     createCanvas(600,400);
     inputtext=createInput();
-    inputtext.text="Your Name";
     inputtext.position(700,500);
     inputtext.input(updateText);
     colorpicker=createColorPicker("#63claff");
