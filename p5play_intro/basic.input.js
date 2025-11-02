@@ -22,7 +22,7 @@ function setup(){
 }
 function draw(){
     background(210);
-    input=usertext.value;
+    input=usertext.value();
     fill(colorpicker.value());
     textSize(28);
     textAlign(CENTER,CENTER);
