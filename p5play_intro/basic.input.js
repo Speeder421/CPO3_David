@@ -1,8 +1,8 @@
 let noun;
 let verb;
 let adj;
-let adv,advtext;
-let place,placetext;
+let adv;
+let place;
 let button;
 
 
