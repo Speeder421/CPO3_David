@@ -10,7 +10,7 @@ function setup(){
     createCanvas(600,400);
 
     noun=createInput("Enter a noun");
-    inputtext.position(width/2,);
+    .position(width/2,100);
     inputtext.input(updateText);
 
     colorpicker=createColorPicker("#63claff");
