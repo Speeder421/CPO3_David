@@ -28,3 +28,7 @@ function draw(){
 function updateText(){
     usertext=this.value();
 }
+
+function updateText2(){
+    usertext2=this.value();
+}
