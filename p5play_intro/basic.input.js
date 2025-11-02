@@ -22,10 +22,7 @@ function setup(){
 }
 function draw(){
     background(210);
-    fill(colorpicker.value());
-    textSize(28);
-    textAlign(CENTER,CENTER);
-    text(usertext,width/2,180);
+    
 
 
 
@@ -33,5 +30,8 @@ function draw(){
 
 }
 function updateText(){
-    usertext=this.value();
+    fill(colorpicker.value());
+    textSize(28);
+    textAlign(CENTER,CENTER);
+    text(usertext,width/2,180);
 }
