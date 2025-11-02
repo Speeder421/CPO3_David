@@ -22,6 +22,11 @@ function draw(){
     textAlign(CENTER,CENTER);
     text(usertext,width/2,180);
 
+    fill(0);
+    textSize(28);
+    textAlign(CENTER,CENTER);
+    text(usertext2,width/2,180);
+
 
 
 }
