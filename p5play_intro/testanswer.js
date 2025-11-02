@@ -1,5 +1,6 @@
 let floor;
 let ball;
+const values = ['x', 'y'];
 
 function setup(){
     new Canvas(600,400);
