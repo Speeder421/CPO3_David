@@ -12,18 +12,12 @@ function setup(){
     noun=createInput("Enter a noun");
     noun.position(width/2,100);
     noun.input(nountext);
-
-
-
 }
 function draw(){
     background(225);
     textSize(28);
     textAlign(CENTER,CENTER);
     text(usertext,width/2,180);
-
-
-
 
 }
 function nountext(){
