@@ -26,5 +26,5 @@ function draw(){
 
 }
 function nountext(){
-    nountext=this.value();
+    nountext1=this.value();
 }
