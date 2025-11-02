@@ -20,7 +20,7 @@ function draw(){
     background(225);
     text.size(28);
     text.fill();
-    text(nou)
+    text(nountext1)
 
 
 
