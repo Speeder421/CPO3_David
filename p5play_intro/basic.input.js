@@ -1,7 +1,7 @@
 let noun,nountext;
 let verb,verbtext;
-let adj,;
-let adv;
+let adj,adjtext;
+let adv,advtext;
 let place;
 let button;
 
