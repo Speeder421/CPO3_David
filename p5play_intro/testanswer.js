@@ -13,7 +13,7 @@ function setup(){
 }
 function draw(){
     background(225);
-    if(true){
+    if(mouse.Presses){
         ball=new Sprite(mouse.x,mouse.y,40,"dynamic");
         ball.bounciness=0.5;
     }
