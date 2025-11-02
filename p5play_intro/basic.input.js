@@ -19,7 +19,7 @@ function draw(){
     background(225);
     fill(0);
     textSize(28);
-    text.color=colorpicker.value()
+    text.color=colorpicker.value();
     textAlign(CENTER,CENTER);
     text(usertext,width/2,180);
 
