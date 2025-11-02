@@ -32,4 +32,5 @@ function getRandomInteger(min, max) {
 const randomIndex = Math.floor(Math.random() * values.length);
 const randomValue = values[randomIndex];
 
+console.log(randomValue);
 
