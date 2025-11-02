@@ -17,7 +17,7 @@ function draw(){
     if(mouse.presses()){
         ball=new Sprite(mouse.x,mouse.y,40,"dynamic");
         ball.bounciness=0.5;
-        ball.velocity.x=randomNumber;
+        ball.velocity.x=getRandomInteger(-10, 10);
     }
 }
 
