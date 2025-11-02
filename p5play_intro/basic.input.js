@@ -6,7 +6,7 @@ let colorpicker;
 
 function setup(){
     createCanvas(600,400);
-    inputtext=createInput();
+    inputtext=createInput("Enter your text here");
     inputtext.position(700,500);
     inputtext.input(updateText);
     
