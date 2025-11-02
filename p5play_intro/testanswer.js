@@ -28,5 +28,4 @@ function getRandomInteger(min, max) {
 }
 
 
-const randomNumber = getRandomInteger(-10, 10);
-console.log(randomNumber);
+
