@@ -1,6 +1,8 @@
 let noun;
 let verb;
-let adj
+let adj;
+let adv;
+let place
 
 let usertext="";
 
