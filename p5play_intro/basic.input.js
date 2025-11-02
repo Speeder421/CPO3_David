@@ -1,4 +1,5 @@
 let inputtext;
+let inputtext2;
 let usertext="";
 let colorpicker;
 function setup(){
