@@ -27,6 +27,6 @@ function getRandomInteger(min, max) {
     return Math.floor(Math.random() * (max - min + 1)) + min;
 }
 
-// Generate a random integer between -10 and 10 (inclusive)
+
 const randomNumber = getRandomInteger(-10, 10);
 console.log(randomNumber);
