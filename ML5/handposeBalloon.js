@@ -98,7 +98,7 @@ function gotHands(result){
 }
 function keypressed(){
     if (key===' '){
-        g
+        world.gravity.y=6;
         gameStarted===true;
         gameOver=false;
         score=0;
