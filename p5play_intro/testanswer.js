@@ -15,8 +15,6 @@ function setup(){
 function draw(){
     background(225);
     randomIndex = Math.floor(Math.random() * values.length);
-
-
     
     if(mouse.presses()){
         ball=new Sprite(mouse.x,mouse.y,40,"dynamic");
@@ -32,5 +30,5 @@ function getRandomInteger(min, max) {
 }
 
 
-randomIndex = Math.floor(Math.random() * values.length);
+
 
