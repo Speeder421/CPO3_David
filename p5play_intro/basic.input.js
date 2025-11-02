@@ -9,7 +9,7 @@ function setup(){
     inputtext=createInput();
     inputtext.position(700,500);
     inputtext.input(updateText);
-    inputtext.hide()
+    inputtext.hide();
 
     colorpicker=createColorPicker("#63claff");
     colorpicker.position(480,170);
