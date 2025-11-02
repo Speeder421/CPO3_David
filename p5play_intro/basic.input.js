@@ -11,7 +11,7 @@ function setup(){
     
 
     button=createButton("Submit");
-    button.mousePressed(drw)
+    button.mousePressed(draw())
     button.position(700,480)
     
 
