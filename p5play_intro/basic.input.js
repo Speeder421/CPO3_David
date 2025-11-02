@@ -18,7 +18,8 @@ function setup(){
 }
 function draw(){
     background(225);
-    Text.size
+    text.size(28)
+    text.fill()
 
 
 
