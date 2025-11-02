@@ -24,5 +24,5 @@ function draw(){
 
 }
 function nountext(){
-    usertext=this.value();
+    nountext=this.value();
 }
