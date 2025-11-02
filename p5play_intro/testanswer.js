@@ -14,12 +14,11 @@ function setup(){
 }
 function draw(){
     background(225);
-    randomIndex = Math.floor(Math.random() * values.length);
     
     if(mouse.presses()){
         ball=new Sprite(mouse.x,mouse.y,40,"dynamic");
         ball.bounciness=0.5;
-        ball.velocity.y=getRandomInteger(-10, 10);
+        ball.velocity.random()=getRandomInteger(-10, 10);
     }
 }
 
