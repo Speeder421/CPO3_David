@@ -1,4 +1,6 @@
-let inputtext;
+let noun;
+let verb;
+let adj
 
 let usertext="";
 
