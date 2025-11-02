@@ -2,8 +2,6 @@ let inputtext;
 
 let usertext="";
 
-let colorpicker;
-
 function setup(){
     createCanvas(600,400);
     inputtext=createInput();
