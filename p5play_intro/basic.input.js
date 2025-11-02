@@ -1,4 +1,4 @@
-let noun,nountext;
+let noun;
 let verb,verbtext;
 let adj,adjtext;
 let adv,advtext;
