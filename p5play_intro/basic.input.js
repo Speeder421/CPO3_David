@@ -2,7 +2,7 @@ let noun,nountext;
 let verb,verbtext;
 let adj,adjtext;
 let adv,advtext;
-let place;
+let place,placetext;
 let button;
 
 
