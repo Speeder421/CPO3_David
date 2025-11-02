@@ -11,8 +11,8 @@ function setup(){
     
 
     button=createButton("Submit");
-    button.mousePressed(draw())
-    button.position(700,480)
+    button.mousePressed(updateText)
+    buto
     
 
     colorpicker=createColorPicker("#63claff");
@@ -22,15 +22,16 @@ function setup(){
 }
 function draw(){
     background(210);
-    input=this.value();
     fill(colorpicker.value());
     textSize(28);
     textAlign(CENTER,CENTER);
-    text(input,width/2,180);
+    text(usertext,width/2,180);
 
 
 
 
 
 }
-
+function updateText(){
+    usertext=this.value();
+}
