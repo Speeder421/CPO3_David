@@ -8,8 +8,8 @@ let button;
 
 function setup(){
     createCanvas(600,400);
-    inputtext=createInput();
-    inputtext.position(700,500);
+    noun=createInput("Enter a noun");
+    inputtext.position();
     inputtext.input(updateText);
 
     colorpicker=createColorPicker("#63claff");
