@@ -4,7 +4,7 @@ let ball;
 function setup(){
     new Canvas(600,400);
     floor = new Sprite();
-    floor.width=600;
+    floor.width=620;
     floor.height=40;
     floor.y=400;
     floor.x=300;
