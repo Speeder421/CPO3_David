@@ -7,7 +7,7 @@ function setup(){
     inputtext.position(200,height-80);
     inputtext.input(updateText);
     colorpicker=createColorPicker("#63claff");
-    colorpicker.position(200,32);
+    colorpicker.position(32,200);
 
 
 }
