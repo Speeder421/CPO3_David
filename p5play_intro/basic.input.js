@@ -11,7 +11,7 @@ function setup(){
     inputtext.input(updateText);
 
     button=createButton("show input");
-    button=
+    button.mousepressed()
     
 
     colorpicker=createColorPicker("#63claff");
