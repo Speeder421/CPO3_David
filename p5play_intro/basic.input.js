@@ -9,6 +9,8 @@ function setup(){
     inputtext=createInput("Enter your text here");
     inputtext.position(700,500);
     inputtext.input(updateText);
+
+    crea
     
 
     colorpicker=createColorPicker("#63claff");
