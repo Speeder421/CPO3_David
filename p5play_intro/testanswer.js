@@ -1,5 +1,6 @@
 let floor;
 let ball;
+const values = ['x', 'y'];
 
 function setup(){
     new Canvas(600,400);
@@ -29,7 +30,6 @@ function getRandomInteger(min, max) {
 
 
 const randomIndex = Math.floor(Math.random() * values.length);
-// Select the value at that index
 const randomValue = values[randomIndex];
 
 console.log(randomValue);
