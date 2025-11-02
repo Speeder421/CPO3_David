@@ -20,8 +20,7 @@ function draw(){
     fill(0);
     textSize(28);
     textAlign(CENTER,CENTER);
-    text(usertext,width/2,180);
-    text(colorpicker.value())
+    text(usertext,colorpicker.value(),width/2,180);
 
 
 
