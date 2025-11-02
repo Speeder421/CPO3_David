@@ -15,7 +15,6 @@ function draw(){
     background(225);
     const max = 10; 
     const randomNumber = Math.floor(Math.random() * max);
-    console.log(randomNumber);
     if(mouse.presses()){
         ball=new Sprite(mouse.x,mouse.y,40,"dynamic");
         ball.bounciness=0.5;
