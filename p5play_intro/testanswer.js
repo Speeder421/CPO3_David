@@ -13,8 +13,15 @@ function setup(){
 }
 function draw(){
     background(225);
-    const max = 10; 
-    const randomNumber = Math.floor(Math.random() * max);
+    function getRandomInteger(min, max) {
+  min = Math.ceil(min);
+  max = Math.floor(max);
+  return Math.floor(Math.random() * (max - min + 1)) + min;
+}
+
+// Generate a random integer between -10 and 10 (inclusive)
+const randomNumber = getRandomInteger(-10, 10);
+console.log(randomNumber);
     if(mouse.presses()){
         ball=new Sprite(mouse.x,mouse.y,40,"dynamic");
         ball.bounciness=0.5;
