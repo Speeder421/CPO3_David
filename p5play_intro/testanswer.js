@@ -23,8 +23,8 @@ function draw(){
 
 function getRandomInteger(min, max) {
     min = Math.ceil(min);
-  max = Math.floor(max);
-  return Math.floor(Math.random() * (max - min + 1)) + min;
+    max = Math.floor(max);
+    return Math.floor(Math.random() * (max - min + 1)) + min;
 }
 
 // Generate a random integer between -10 and 10 (inclusive)
