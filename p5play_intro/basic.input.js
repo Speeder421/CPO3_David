@@ -6,6 +6,9 @@ function setup(){
     inputtext=createInput();
     inputtext.position(700,CENTER);
     inputtext.input(updateText);
+    
+    inputtext.position(700,CENTER);
+    inputtext.input(updateText);
 
     colorpicker=createColorPicker("#63claff");
     colorpicker.position(480,170);
