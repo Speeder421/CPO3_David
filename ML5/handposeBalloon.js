@@ -5,6 +5,7 @@ let hands=[];
 let gameStarted=false;
 let gameOver=false;
 let pointsound;
+let score=0;
 function preload(){
     let options={
         flipped:true,
