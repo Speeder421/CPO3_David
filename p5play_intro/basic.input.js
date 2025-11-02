@@ -20,7 +20,8 @@ function draw(){
     background(225);
     text.size(28);
     text.fill();
-    text(nountext1)
+    text
+    text(nountext1);
 
 
 
