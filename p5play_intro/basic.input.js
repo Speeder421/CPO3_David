@@ -1,7 +1,7 @@
 let inputtext;
-let inputtext2;
+
 let usertext="";
-let usertext2="";
+
 let colorpicker;
 
 function setup(){
