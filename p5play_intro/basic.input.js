@@ -12,7 +12,7 @@ function setup(){
 
     button=createButton("Submit");
     button.mousePressed(updateText)
-    button.position(690,500)
+    button.position(700,500)
     
 
     colorpicker=createColorPicker("#63claff");
