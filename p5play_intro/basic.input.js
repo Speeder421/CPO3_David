@@ -13,8 +13,6 @@ function setup(){
     noun.position(width/2,100);
     noun.input(nountext);
 
-    colorpicker=createColorPicker("#63claff");
-    colorpicker.position(480,170);
 
 
 }
