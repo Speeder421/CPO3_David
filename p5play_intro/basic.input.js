@@ -10,7 +10,7 @@ function setup(){
     inputtext.position(700,500);
     inputtext.input(updateText);
 
-    inputtext2.position(700,480);
+    inputtext2.position(480,480);
     inputtext2.input(updateText2);
     inputtext2.input(updateText2);
 
