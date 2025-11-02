@@ -27,8 +27,7 @@ function getRandomInteger(min, max) {
     return Math.floor(Math.random() * (max - min + 1)) + min;
 }
 
-const values = ['x', 'y'];
-// Generate a random index (either 0 or 1)
+
 const randomIndex = Math.floor(Math.random() * values.length);
 // Select the value at that index
 const randomValue = values[randomIndex];
