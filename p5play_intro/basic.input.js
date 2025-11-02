@@ -8,10 +8,10 @@ function setup(){
     createCanvas(600,400);
     inputtext=createInput("Enter your text here");
     inputtext.position(700,500);
-    inputtext.input(updateText);
+    
 
     button=createButton("show input");
-    button.mousepressed()
+    button.mousepressed(updateText)
     
 
     colorpicker=createColorPicker("#63claff");
