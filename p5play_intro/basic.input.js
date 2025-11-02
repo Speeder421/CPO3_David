@@ -11,7 +11,7 @@ function setup(){
     
 
     button=createButton("Submit");
-    button.mousePressed(updateText)
+    button.mousePressed(drw)
     button.position(700,480)
     
 
@@ -33,6 +33,4 @@ function draw(){
 
 
 }
-function updateText(){
-    usertext=this.value();
-}
+
