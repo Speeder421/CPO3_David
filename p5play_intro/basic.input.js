@@ -11,7 +11,7 @@ function setup(){
 
     noun=createInput("Enter a noun");
     noun.position(width/2,100);
-    noun.input(updateText);
+    noun.input(nountext);
 
     colorpicker=createColorPicker("#63claff");
     colorpicker.position(480,170);
